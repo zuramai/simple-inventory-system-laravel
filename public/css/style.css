@@ -1,0 +1,281 @@
+@font-face {
+	font-family: 'Viga';
+	src: url('../fonts/Viga-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Raleway-B';
+	src: url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Painter';
+	src: url('../fonts/Painter_PERSONAL_USE_ONLY.ttf');
+}
+
+body {
+	min-height: 100vh;
+	background-color: #F2F3F8;
+}
+
+.btn-primary {
+	background-color: #508AEB ;
+}
+
+
+.bodyLogin {
+	  background: linear-gradient(to right, #4e54c8, #8f94fb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.kotakLogin {
+	background-color: #fff;
+}
+
+
+
+.loginHeader {
+	font-size: 30px;
+	font-family: 'Viga';
+	padding-top: 20px;
+}
+
+.loginHeader h3 {
+	
+	padding-left: 20px;
+}
+
+.login-form {
+	padding: 20px;
+
+}
+
+.btn-primary {
+	background-color: #508AEB;
+}
+
+.btn-primary:hover {
+	background-color: #555BEA;
+}
+
+.sidebar {
+	width: 270px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 3;
+	height: 102%;
+}
+
+.main-sidebar {
+	display: flex;
+	align-items: stretch;
+}
+
+.sidebar-header {
+	
+	height: 70px;
+}
+
+.sidebar-header h3 {
+}
+
+.navbar-brand {
+	font-size: 30px;
+	color: #fff !important;
+	font-family: 'Painter';
+
+}
+
+.navbar-laravel {
+    background-color: #3e8ef7;
+    height: 65px;
+    padding: 0;
+}
+
+.logo {
+	width: 250px;
+}
+
+
+.navbar-brand {
+	padding: 0;
+}
+
+.sidebar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 250px;
+	background-color: #fff;
+	border-right: 1px solid #dcdede;
+	box-shadow: 1px 1px 5px #ccc;
+	margin-top: 65px;
+}
+
+.side-link {
+	padding: 10px 25px;
+	display: block;
+	color: rgb(100, 100, 100);
+	width: 100%;
+	transition: all .1s;
+	font-family: 'Raleway'
+}
+
+.side-link:hover {
+	
+	text-decoration: none;
+	color:rgb(0,0,0); ;
+}
+
+.side-link span {
+	margin-left: 20px; 
+}
+
+.sidebar .navbar-nav {
+	margin-top: 40px;
+}
+
+.side-link i {
+	font-size: 14px;
+	max-width: 14px;
+}
+
+/*.content {
+	position: absolute;
+	left: 270px;
+	top: 70px;
+}*/
+
+.admin {
+	margin-left: 250px;
+}
+
+.py-4 {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.isi {
+	background-color: red;
+}
+
+.breadcrumb {
+	background-color: transparent;
+	padding-left:0;
+	padding-top: 0;
+}
+
+.kotak-statistic {
+	background-color: #fff;
+	width: 100%;
+	height: 150px;
+	border: 1px solid rgb(220,220,220);
+	border-top: 7px solid #3E8EF7;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 0 40px;
+}
+
+
+.statistic-icon {
+	font-size: 40px;
+}
+
+.statistic-ket {
+	text-align: right;
+}
+
+.statistic-ket > h3 {
+	font-weight: bold;
+}
+
+.statistic-ket p {
+	font-size: 12px;
+	color: #555;
+	margin-bottom: 0;
+}
+
+.st2 {
+	border-top: 7px solid #e74c3c;
+}
+
+.st3 {
+	border-top: 7px solid #2ecc71;
+}
+
+.chart {
+	margin: 20px 0;
+}
+
+.panel {
+	background-color: #fff;
+	border-radius: 4px;
+	width: 100%;
+	border: 1px solid rgb(220,220,220);
+}
+
+.panel-header {
+	padding: 10px;
+	margin: 0 20px;
+	color: rgba(70,70,70);
+	font-size: 20px;
+	font-family: 'Raleway';
+}
+
+.panel-header i {
+}
+
+.panel-title {
+	margin-right: 10px;
+	
+}
+
+.panel-body {
+	min-height: 100px;
+	background-color: #fff;
+}
+
+.chart .panel-body {
+	padding: 10px 35px 0;
+}
+
+.bars {
+	color: #fff;
+}
+
+.bars {
+	background-color: transparent;
+	border:1px solid #fff;
+	border-radius: 2px;
+	padding: 5px 10px;
+	transition: all .1s;
+}
+
+.bars:hover {
+	cursor: pointer;
+}
+
+
+footer {
+	margin-left: 250px;
+	background-color: #fefefe;
+	position: fixed;
+	bottom: 0;	
+	left: 0;
+	right: 0;
+	padding: 10px;
+	border-top: 1px solid #eee;
+	z-index: 2;
+	color: #444;
+	text-align: right;
+}
+
+.app {
+	min-height: 100vh;
+}
